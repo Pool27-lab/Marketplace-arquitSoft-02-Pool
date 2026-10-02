@@ -46,6 +46,14 @@ El sistema debe utilizar una API REST para la comunicación entre la aplicación
 
 **Impacto arquitectónico:** La arquitectura debe separar la presentación de la lógica de negocio y permitir una comunicación mediante servicios REST.
 
+### DA06 - Mantenibilidad
+
+El sistema debe permitir modificar, funcionalidades sin afectar, innecesariamente otros módulos.
+
+**Relacionado con:** AC05-Mantenibilidad.
+
+**Impacto arquitectónico:** Influye en la separación de responsabilidades, modularidad y dependencias internas.
+
 ## Resumen
 
 | ID   | Driver              | Relación | Impacto arquitectónico                                         |
@@ -55,3 +63,4 @@ El sistema debe utilizar una API REST para la comunicación entre la aplicación
 | DA03 | Seguridad           | AC04     | Implementar autenticación, autorización y protección de datos. |
 | DA04 | Integración externa | RC04     | Permitir integración con servicios externos.                   |
 | DA05 | API REST            | RC03     | Separar presentación y lógica mediante servicios REST.         |
+| DA06 | Mantenibilidad      | AC05     | Influye en la separación de responsabilidades                  | 
